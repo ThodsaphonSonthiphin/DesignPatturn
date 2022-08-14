@@ -1,4 +1,5 @@
 ﻿
+//https://online.visual-paradigm.com/w/pplxtipa/diagrams/#diagram:workspace=pplxtipa&proj=0&id=10
 using AbstractFactory;
 
 var gamingFactory = new GamingFactory();
