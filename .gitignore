@@ -1,2 +1,10 @@
 
 .vs/
+
+AbstractFactory/bin/
+
+AbstractFactory/obj/
+
+Builder/bin/
+
+Builder/obj/
