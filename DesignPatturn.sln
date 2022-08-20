@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural Patterns", "Stru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{39E2CEFC-8F73-4981-9077-15353AB2BE90}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Creational Patterns", "{A1B1B36C-00CA-4531-876C-5F1B755E2EF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{733EEDF4-2DFE-4DC9-9D55-2077E485B9E0} = {A1B1B36C-00CA-4531-876C-5F1B755E2EF7}
+		{0C85B6DF-88F6-4567-B40B-C4E712E270F2} = {A1B1B36C-00CA-4531-876C-5F1B755E2EF7}
+		{C7C55A0E-3C9E-4E9E-8447-7005F9AAC778} = {A1B1B36C-00CA-4531-876C-5F1B755E2EF7}
+		{9B710B22-C6AA-4A23-8BAB-232E363B23A8} = {A1B1B36C-00CA-4531-876C-5F1B755E2EF7}
 		{39E2CEFC-8F73-4981-9077-15353AB2BE90} = {700AF9AD-5E74-4F4D-9084-B7C8169E03CC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
