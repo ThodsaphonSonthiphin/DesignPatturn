@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Patterns", "Behavioral Patterns", "{6FB704A8-8EC9-4747-B69E-DE1D28D0266F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{900F2AE6-9A84-4A35-8722-EDD71A974290}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B3581EC9-986F-42C9-AA39-C87E03CB8F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3581EC9-986F-42C9-AA39-C87E03CB8F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3581EC9-986F-42C9-AA39-C87E03CB8F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{900F2AE6-9A84-4A35-8722-EDD71A974290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900F2AE6-9A84-4A35-8722-EDD71A974290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900F2AE6-9A84-4A35-8722-EDD71A974290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900F2AE6-9A84-4A35-8722-EDD71A974290}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{9B710B22-C6AA-4A23-8BAB-232E363B23A8} = {6FB704A8-8EC9-4747-B69E-DE1D28D0266F}
 		{39E2CEFC-8F73-4981-9077-15353AB2BE90} = {700AF9AD-5E74-4F4D-9084-B7C8169E03CC}
 		{B3581EC9-986F-42C9-AA39-C87E03CB8F09} = {A1B1B36C-00CA-4531-876C-5F1B755E2EF7}
+		{900F2AE6-9A84-4A35-8722-EDD71A974290} = {700AF9AD-5E74-4F4D-9084-B7C8169E03CC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {453D1088-B0B5-47C7-A102-8F13B8F60654}
