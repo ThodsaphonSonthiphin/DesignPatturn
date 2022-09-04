@@ -9,6 +9,15 @@ namespace Flyweight
     public class Officer
     {
         private ProvinceFlyweights _province = null;
+        public ProvinceFlyweights Province
+        {
+            get
+            {
+                return this._province;
+            }
+
+        }
+        public string Name { get; set; }
         public Officer(ProvinceFactory factory, string name, string provinceName,string provinceCode)
         {
             Factory = factory;
@@ -16,16 +25,9 @@ namespace Flyweight
             _province = factory.GetProvinceFlyweight(provinceName,provinceCode);
         }
 
-        public string Name { get; set; }
+        
 
-        public ProvinceFlyweights Province
-        {
-            get
-            {
-                return this._province;
-            }
-           
-        }
+       
 
         public void SetProvince(string provinceName, string provinceCode)
         {
