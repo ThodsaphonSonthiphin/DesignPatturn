@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{2EFB832A-999F-4F26-9C6A-DF58779BF699}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{E385064D-A415-485F-8A95-D7F190494412}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{E385064D-A415-485F-8A95-D7F190494412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{63C2FCAA-1142-4BF3-9712-E2610AFE2D81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{E385064D-A415-485F-8A95-D7F190494412}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E385064D-A415-485F-8A95-D7F190494412}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E385064D-A415-485F-8A95-D7F190494412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C2FCAA-1142-4BF3-9712-E2610AFE2D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C2FCAA-1142-4BF3-9712-E2610AFE2D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C2FCAA-1142-4BF3-9712-E2610AFE2D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C2FCAA-1142-4BF3-9712-E2610AFE2D81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +131,7 @@ Global
 		{8F693266-30F5-4FE2-9301-90838BC41489} = {6FB704A8-8EC9-4747-B69E-DE1D28D0266F}
 		{2EFB832A-999F-4F26-9C6A-DF58779BF699} = {6FB704A8-8EC9-4747-B69E-DE1D28D0266F}
 		{E385064D-A415-485F-8A95-D7F190494412} = {6FB704A8-8EC9-4747-B69E-DE1D28D0266F}
+		{63C2FCAA-1142-4BF3-9712-E2610AFE2D81} = {6FB704A8-8EC9-4747-B69E-DE1D28D0266F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {453D1088-B0B5-47C7-A102-8F13B8F60654}
