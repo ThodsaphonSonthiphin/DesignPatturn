@@ -1,0 +1,7 @@
+@startuml
+interface IBuilder {
+    + AddSecurity() : void
+    + AddServeStaticFile() : void
+    + AddLocalDatabase() : void
+}
+@enduml

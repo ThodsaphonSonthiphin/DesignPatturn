@@ -1,0 +1,19 @@
+@startuml
+class MobileAppBuilder {
+    + MobileAppBuilder()
+    - Reset() : void
+    + AddSecurity() : void
+    + AddServeStaticFile() : void
+    + AddLocalDatabase() : void
+    + GetProduct() : MobileApplication
+}
+class MobileApplication {
+    + Add(f:string) : void
+    + Show() : void
+}
+class "List`1"<T> {
+}
+IBuilder <|-- MobileAppBuilder
+MobileAppBuilder --> "_mobileApplication" MobileApplication
+MobileApplication o-> "FunctionList<string>" "List`1"
+@enduml

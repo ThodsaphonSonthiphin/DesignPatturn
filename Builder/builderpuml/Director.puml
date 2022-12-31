@@ -1,0 +1,8 @@
+@startuml
+class Director {
+    + Director(builder:IBuilder)
+    + BuildFullFeature() : void
+    + BuildNoneLocalDatabase() : void
+}
+Director --> "_builder" IBuilder
+@enduml

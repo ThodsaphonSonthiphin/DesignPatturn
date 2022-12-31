@@ -1,0 +1,1 @@
+dotnet puml-gen ./Builder ./Builder/builderpuml -dir  -createAssociation -excludePaths bin,obj,Properties

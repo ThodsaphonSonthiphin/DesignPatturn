@@ -1,0 +1,12 @@
+@startuml
+class WebApplicationBuilder {
+    + WebApplicationBuilder()
+    + Reset() : void
+    + AddSecurity() : void
+    + AddServeStaticFile() : void
+    + AddLocalDatabase() : void
+    + GetProduct() : WebApplication
+}
+IBuilder <|-- WebApplicationBuilder
+WebApplicationBuilder --> "_webApplication" WebApplication
+@enduml

@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Builder
+﻿namespace Builder
 {
     
-    public class ApplicationBuilder:IBuilder
+    public class WebApplicationBuilder:IBuilder
     {
         private WebApplication _webApplication;
 
-        public ApplicationBuilder()
+        public WebApplicationBuilder()
         {
             Reset();
         }
@@ -42,24 +36,5 @@ namespace Builder
 
             return result;
         }
-    }
-
-    public class WebApplication
-    {
-        public List<string> FunctionList { get; set; } = new List<string>();
-
-        public void Add(string f)
-        {
-            this.FunctionList.Add(f);
-        }
-
-        public void Show()
-        {
-            foreach (string s in this.FunctionList)
-            {
-                Console.WriteLine(s);
-            }
-        }
-
     }
 }

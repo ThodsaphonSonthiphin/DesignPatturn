@@ -1,0 +1,9 @@
+@startuml
+class WebApplication {
+    + Add(f:string) : void
+    + Show() : void
+}
+class "List`1"<T> {
+}
+WebApplication o-> "FunctionList<string>" "List`1"
+@enduml
