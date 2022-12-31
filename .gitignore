@@ -32,3 +32,5 @@ Composite/bin/
 Composite/obj/
 bin/
 obj/
+
+.DS_Store
